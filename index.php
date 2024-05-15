@@ -75,6 +75,7 @@
                                     <span class="badge bg-success"><?php echo $filmler["1"]["yorumSayisi"]?></span>
                                     <span class="badge bg-success"><?php echo $filmler["1"]["begeniSayisi"]?></span>
                                     <span class="badge bg-success"><?php echo $filmler["1"]["vizyon"]?></span>
+                                    <span class="badge bg-success"><?php echo $url ="URL:" . " " . strtolower(str_replace(" ", "-",$filmler["1"]["baslik"])) ?></span>
                                 </div>
                             </div>
                         </div>
@@ -97,6 +98,7 @@
                                     <span class="badge bg-success"><?php echo $filmler["2"]["yorumSayisi"]?></span>
                                     <span class="badge bg-success"><?php echo $filmler["2"]["begeniSayisi"]?></span>
                                     <span class="badge bg-success"><?php echo $filmler["2"]["vizyon"]?></span>
+                                    <span class="badge bg-success"><?php echo $url ="URL:" . " " . strtolower(str_replace(" ", "-",$filmler["2"]["baslik"])) ?></span>
                                 </div>
                             </div>
                         </div>
@@ -119,6 +121,7 @@
                                     <span class="badge bg-success"><?php echo $filmler["0"]["yorumSayisi"]?></span>
                                     <span class="badge bg-success"><?php echo $filmler["0"]["begeniSayisi"]?></span>
                                     <span class="badge bg-success"><?php echo $filmler["0"]["vizyon"]?></span>
+                                    <span class="badge bg-success"><?php echo $url ="URL:" . " " . strtolower(str_replace(" ", "-",$filmler["0"]["baslik"])) ?></span>
                                 </div>
                             </div>
                         </div>
